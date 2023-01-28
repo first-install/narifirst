@@ -1,0 +1,75 @@
+/* common */
+
+@media(min-width:600px) {
+  body {
+    width: 600px;
+    margin: 0 auto;
+  }
+}
+
+.container,h2 {
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+}
+
+/* header */
+
+header {
+  background-color: azure;
+  border: 1px solid red;
+}
+
+header p {
+  text-align: left;
+}
+
+header ul {
+  text-align: left;
+}
+
+/* main */
+
+main .container h2 {
+  margin-top: 32px;
+  margin-bottom: 8px;
+}
+
+.container {
+  display: flex;
+}
+
+section {
+  border: 1px solid orange;
+  padding: 16px;
+}
+
+section p {
+  margin: 0px;
+}
+
+/* hero */
+
+button {
+  width: 64px;
+  height: 32px;
+}
+
+button:hover {
+  opacity: .5;
+}
+
+hero h2 {
+  margin-top: 64px;
+}
+
+/* footer */
+
+footer {
+  font-size: 16px;
+  flood-color: lightgray;
+  margin-top: 16px;
+  text-align: center;
+}
